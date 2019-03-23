@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "exampledb",
+    "password": "anubis10",
+    "database": "menu_db",
     "host": "localhost",
     "dialect": "mysql"
   },
