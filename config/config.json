@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "anubis10",
-    "database": "exampledb",
+    "database": "menu_db",
     "host": "localhost",
     "dialect": "mysql"
   },

@@ -1,31 +1,14 @@
 
-<div>
+<a-scene embedded arjs='trackingMethod: best;'>
+    <a-anchor hit-testing-enabled='true'>
 
-  <a-scene embedded arjs='trackingMethod: best;'>
-    {{!-- <a-anchor hit-testing-enabled='true'>
-      {{!-- <a-entity position="0.5 -2 -0.5" scale="0.10 0.10 0.10"
-      obj-model="obj: url(public\imageModel\bugatti.obj)">
-      </a-entity> --}}
-           
-        <!-- Adding an OBJ file to an AR Project-->
-        <a-entity 
-            obj-model='obj: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.obj); 
-            mtl: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.mtl)'>
-        </a-entity>
 
-      </a-marker>
+        <a-text value="Hello World" rotation="-90 0 0" position="-0.5 -1 0"></a-text>
+        <a-plane src="images\menu.png" height="3" width="3" rotation="-90 0 0" color="grey" position="0 1 0"></a-plane>
+
     </a-anchor>
-    <a-camera-static /> --}}
-     <a-marker preset='hiro'>
-     <a-entity 
-            obj-model="obj: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.obj); 
-            mtl: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.mtl)">
-        </a-entity>
-        </a-marker>
-  </a-scene>
-
-</div>
-
+    <a-camera-static />
+</a-scene>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
